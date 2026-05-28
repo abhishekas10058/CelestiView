@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CelestiView | NASA APOD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/logo.png">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Google Font: Jost -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ================= SHARE MODAL ================= -->
+<div id="shareModal" class="share-modal">
+  <div class="share-content">
+    <span class="close-share">&times;</span>
+
+    <h2>Share This APOD</h2>
+
+    <div class="share-buttons">
+  <a id="shareTwitter" target="_blank">
+    <i class="fa-brands fa-x-twitter"></i> Twitter
+  </a>
+
+  <a id="shareFacebook" target="_blank">
+    <i class="fa-brands fa-facebook-f"></i> Facebook
+  </a>
+
+  <a id="shareWhatsApp" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+  </a>
+
+  <a id="shareInstagram">
+    <i class="fa-brands fa-instagram"></i> Instagram
+  </a>
+</div>
+
+
+    <button id="copyLinkBtn">Copy URL</button>
+    <button id="downloadPdfBtn">Download as PDF</button>
+  </div>
+</div>
+
+<!-- ================= AURORA BACKGROUND ================= -->
+<div class="aurora-bg">
+    <div class="aurora-layer"></div>
+</div>
+
+<!-- ================= HEADER ================= -->
+<header>
+    <div class="logo">
+        <img src="assets/logo.png" alt="CelestiView Logo">
+        <div class="logo-text">
+            <h1>CelestiView</h1>
+            <p>Astronomy Picture of the Day</p>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html"onclick="forceHomeReset(event)"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="calendar.html"><i class="fa-solid fa-calendar-days"></i> Select Date</a></li>
+            <li><a href="#" id="shareBtn"><i class="fa-solid fa-share-nodes"></i> Share</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact Us</a></li>
+
+        </ul>
+    </nav>
+</header>
+
+<!-- ================= MAIN ================= -->
+<main>
+
+    <!-- ===== DATE NAVIGATION BAR ===== -->
+    <section class="date-navigation">
+        <button class="nav-btn" id="prevBtn">
+            <i class="fa-solid fa-chevron-left"></i> Previous
+        </button>
+
+        <div class="current-date"></div>
+
+        <button class="nav-btn" id="nextBtn">
+            Next <i class="fa-solid fa-chevron-right"></i>
+        </button>
+    </section>
+
+    <!-- ===== APOD CARD ===== -->
+    <section class="apod-card">
+
+        <div class="apod-header">
+            <h2 class="apod-title"></h2>
+            <span class="media-type"></span>
+        </div>
+
+        <div class="apod-media"></div>
+
+        <div class="apod-explanation"></div>
+
+    </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+    <p>
+        Data provided by
+        <a href="https://api.nasa.gov/" target="_blank" rel="noopener noreferrer">
+            NASA’s Open APIs
+        </a><br>
+        APOD started on June 16, 1995. Explore decades of cosmic discoveries!
+    </p>
+</footer>
+
+<!-- ================= JAVASCRIPT (MUST BE HERE) ================= -->
+<script src="script.js"></script>
+
+</body>
+</html>

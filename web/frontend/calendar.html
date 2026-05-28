@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>APOD Calendar | CelestiView</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="icon" href="assets/logo.png">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="aurora-bg">
+<div class="aurora-layer"></div>
+</div>
+
+<header>
+
+<div class="logo">
+<img src="assets/logo.png">
+<div class="logo-text">
+<h1>CelestiView</h1>
+<p>Astronomy Picture of the Day</p>
+</div>
+</div>
+
+<nav>
+<ul>
+<li>
+<a href="index.html">
+<i class="fa-solid fa-house"></i> Home
+</a>
+</li>
+
+<li>
+<a class="active">
+<i class="fa-solid fa-calendar-days"></i> Select Date
+</a>
+</li>
+</ul>
+</nav>
+
+</header>
+
+
+<main class="calendar-page">
+
+<section class="calendar-header">
+
+<h2>APOD Visual Calendar</h2>
+
+<p>
+Browse NASA’s Astronomy Picture of the Day by month.
+Click any date to explore its full story.
+</p>
+
+</section>
+
+
+<div class="calendar-controls">
+
+<div class="picker-wrapper">
+
+<i class="fa-solid fa-calendar-days"></i>
+
+<select id="yearSelect"></select>
+
+<select id="monthSelect"></select>
+
+</div>
+
+</div>
+
+
+<div class="content-box">
+
+<div class="calendar-grid" id="calendarGrid"></div>
+
+</div>
+
+</main>
+
+
+<footer class="site-footer">
+
+<p>
+
+Data provided by
+<a href="https://api.nasa.gov/" target="_blank">
+NASA’s Open APIs
+</a>
+
+<br>
+
+APOD started on June 16, 1995. Explore decades of cosmic discoveries!
+
+</p>
+
+</footer>
+
+<script src="calendar.js"></script>
+
+</body>
+</html>
