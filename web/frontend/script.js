@@ -1,4 +1,4 @@
-const BACKEND_URL = "http://localhost:5000";
+const BACKEND_URL = "https://celestiview-backend.onrender.com";
 
 /* ================= APOD ELEMENTS ================= */
 
