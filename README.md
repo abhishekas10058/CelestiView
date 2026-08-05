@@ -45,24 +45,22 @@ The application uses NASA's APOD API to display the Astronomy Picture of the Day
 ---
 
 ## 📸 Screenshots
+<h2 align="center">📸 Project Screenshots</h2>
 
-### Home Page
+<p align="center">
+  <img src="screenshots/home1.jpg" width="45%">
+  <img src="screenshots/home2.jpg" width="45%">
+</p>
 
+<p align="center">
+  <img src="screenshots/calender1.jpg" width="45%">
+  <img src="screenshots/calender2.jpg" width="45%">
+</p>
 
+<p align="center">
+  <img src="screenshots/image_i.jpg" width="70%">
+</p>
 
-### Calendar Page
-
-_Add a screenshot here_
-
-### About Page
-
-_Add a screenshot here_
-
----
-
-## 🚀 Live Demo
-
-**Website:** <https://your-demo-link>
 
 ---
 
