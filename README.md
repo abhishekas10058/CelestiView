@@ -85,7 +85,7 @@ CelestiView/
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/<username>/CelestiView.git
+git clone https://github.com/abhishekas10058/CelestiView.git
 
 cd CelestiView
 
