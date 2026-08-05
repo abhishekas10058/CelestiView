@@ -103,11 +103,10 @@ npm start
 | Name | GitHub |
 |------|--------|
 | Abhishek | [@abhishekas10058](https://github.com/abhishekas10058) |
-| Aswani J| [@username](https://github.com/Awanij) |
-| Abhinand S S | [@username](https://github.com/username) |
-| Ajimi J [@username](https://github.com/username) |
+| Aswani J | [@Aswanij](https://github.com/Aswanij) |
+| Member 3 | [@username](https://github.com/username) |
+| Member 4 | [@username](https://github.com/username) |
 
----
 
 ## 📈 Future Improvements
 
