@@ -48,7 +48,7 @@ The application uses NASA's APOD API to display the Astronomy Picture of the Day
 
 ### Home Page
 
-_Add a screenshot here_
+
 
 ### Calendar Page
 
@@ -103,9 +103,9 @@ npm start
 | Name | GitHub |
 |------|--------|
 | Abhishek | [@abhishekas10058](https://github.com/abhishekas10058) |
-| Member 2 | [@username](https://github.com/username) |
-| Member 3 | [@username](https://github.com/username) |
-| Member 4 | [@username](https://github.com/username) |
+| Aswani J| [@username](https://github.com/Awanij) |
+| Abhinand S S | [@username](https://github.com/username) |
+| Ajimi J [@username](https://github.com/username) |
 
 ---
 
